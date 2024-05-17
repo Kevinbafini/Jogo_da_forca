@@ -87,7 +87,7 @@ const palavras_e_temas = {
     });
     
     btnMostrarDica.dataset.dica = dica;
-    palavraCorreta = palavra; // Armazena a palavra correta
+    palavraCorreta = palavra; 
   }
   
   function mostrarDica() {

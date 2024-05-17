@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Rowdies:wght@300;400;700&display=swap');
+
 * {
+    font-family: "Poetsen One", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,7 +24,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     flex-direction: column;
 }
 
