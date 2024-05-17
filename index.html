@@ -1,9 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="titulo"><h1>Jogo da Forca</h1></div>
+    </header>
+
+    <div id="tela_inicial">
+      <button id="botao_iniciar" class="iniciar">Iniciar Jogo</button>
+    </div>
+
+    <main id="tela_de_jogo" style="display: none">
+      <article class="imgs">
+        <img src="img1.png" width="250px" alt="Jogo da forca" />
+      </article>
+      <article class="conteudo">
+        <div class="tema"></div>
+        <div class="palavra-adivinhar"></div>
+        <button id="botao_dica" class="mostrar_dica">Mostrar Dica</button>
+        <div class="dica" style="display: none"></div>
+        <div class="botoes"></div>
+        <p id="mensagemFeedback"></p>
+      </article>
+    </main>
+
+    <audio id="som_acerto" src="sons/acerto.mp3"></audio>
+    <audio id="som_erro" src="sons/erro.mp3"></audio>
+
+    <script src="script.js"></script>
+  </body>
 </html>
