@@ -14,26 +14,31 @@ const palavras_e_temas = {
     "Frutas": [
       { palavra: "Maça", dica: "Fruta vermelha que dá em árvores" },
       { palavra: "Banana", dica: "Fruta amarela e curva" },
+      { palavra: "Limão", dica: "Fruta verde e azeda" },
       { palavra: "Laranja", dica: "Fruta de cor laranja" }
     ],
     "Animais": [
       { palavra: "Elefante", dica: "Animal de grande porte com tromba longa" },
       { palavra: "Cachorro", dica: "Animal de estimação" },
+      { palavra: "Tubarão", dica: "Animal de grande porte que vive no oceano e possui uma barbatana" },
       { palavra: "Girafa", dica: "Animal alto, com pescoço longo" }
     ],
     "Objetos": [
       { palavra: "Computador", dica: "Dispositivo eletrônico de mesa" },
       { palavra: "Faca", dica: "Usado para cortar coisas" },
-      { palavra: "Celular", dica: "Dispositivo de comunicação" }
+      { palavra: "Sofá", dica: "Usado para se sentar" },
+      { palavra: "Celular", dica: "Dispositivo de comunicação e interação social" }
     ],
     "Veículos": [
       { palavra: "Bicicleta", dica: "Veículo de duas rodas" },
       { palavra: "Carro", dica: "Veículo de quatro rodas" },
+      { palavra: "Barco", dica: "Usado para se locomover pelos mares" },
       { palavra: "Avião", dica: "Meio de transporte aéreo" }
     ],
     "Países": [
         { palavra: "Brasil", dica: "Maior País da América do sul" },
         { palavra: "Vaticano", dica: "Menor País do mundo" },
+        { palavra: "Italia", dica: "País conhecido pelas ótimas pizzas" },
         { palavra: "Rússia", dica: "Maior País do mundo" }
       ]
   };
