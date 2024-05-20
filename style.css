@@ -271,4 +271,9 @@ a {
     img {
         width: 200px;
     }
+
+    a {
+        top: 98.5%;
+        font-size: 8px;
+    }
 }
