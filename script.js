@@ -15,30 +15,35 @@ const palavras_e_temas = {
         { palavra: "Maça", dica: "Fruta vermelha que dá em árvores" },
         { palavra: "Banana", dica: "Fruta amarela e curva" },
         { palavra: "Limão", dica: "Fruta verde e azeda" },
+        { palavra: "Uva", dica: "Fruta roxa que nasce em cacho" },
         { palavra: "Laranja", dica: "Fruta de cor laranja" }
     ],
     "Animais": [
         { palavra: "Elefante", dica: "Animal de grande porte com tromba longa" },
         { palavra: "Cachorro", dica: "Animal de estimação" },
         { palavra: "Tubarão", dica: "Animal de grande porte que vive no oceano e possui uma barbatana" },
+        { palavra: "Tartaruga", dica: "Animal de médio porte conhecido por andar devagar" },
         { palavra: "Girafa", dica: "Animal alto, com pescoço longo" }
     ],
     "Objetos": [
         { palavra: "Computador", dica: "Dispositivo eletrônico de mesa" },
         { palavra: "Faca", dica: "Usado para cortar coisas" },
         { palavra: "Sofá", dica: "Usado para se sentar" },
+        { palavra: "Mesa", dica: "Usado para colocar objetos encima" },
         { palavra: "Celular", dica: "Dispositivo de comunicação e interação social" }
     ],
     "Veículos": [
         { palavra: "Bicicleta", dica: "Veículo de duas rodas" },
         { palavra: "Carro", dica: "Veículo de quatro rodas" },
         { palavra: "Barco", dica: "Usado para se locomover pelos mares" },
+        { palavra: "cavalo", dica: "Animal usado para se locomover nas antiguidades" },
         { palavra: "Avião", dica: "Meio de transporte aéreo" }
     ],
     "Países": [
         { palavra: "Brasil", dica: "Maior País da América do sul" },
         { palavra: "Vaticano", dica: "Menor País do mundo" },
         { palavra: "Italia", dica: "País conhecido pelas ótimas pizzas" },
+        { palavra: "México", dica: "País conhecido pelas comidas apimentadas" },
         { palavra: "Rússia", dica: "Maior País do mundo" }
     ]
 };
