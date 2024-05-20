@@ -184,7 +184,7 @@ button {
 
 a {
     top: 97%;
-    color: var(--text-color);
+    color: #333;
     font-weight: bold;
     display: flex;
     position: absolute;

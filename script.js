@@ -45,7 +45,14 @@ const palavras_e_temas = {
         { palavra: "Italia", dica: "País conhecido pelas ótimas pizzas" },
         { palavra: "México", dica: "País conhecido pelas comidas apimentadas" },
         { palavra: "Rússia", dica: "Maior País do mundo" }
-    ]
+    ],
+    "Times": [
+      { palavra: "Real Madrid", dica: "Maior campeão da UEFA Champions League" },
+      { palavra: "Manchester United", dica: "Maior campeão Inglês" },
+      { palavra: "Independiente", dica: "Maior campeão da Conmebol Libertadores" },
+      { palavra: "Corinthians", dica: "Maior campeão Mundial FIFA das Américas" },
+      { palavra: "Al-Hilal", dica: "Maior campeão Arabe" }
+  ]
 };
 
 function palavra_e_tema() {
