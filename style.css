@@ -24,8 +24,8 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    color: #3ba128;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #27cc27;
+    -webkit-text-stroke: 0.5px #333;
 }
 
 #tela_inicial,
@@ -37,10 +37,36 @@ header h1 {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     max-width: 800px;
     width: 100%;
     margin: 20px;
+}
+
+#tela_inicial {
+    width: 30%;
+}
+
+#botao_iniciar {
+    -webkit-text-stroke: 1.75px #333;
+    padding: 5px 20px;
+    font-size: 26px;
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px #228b22;
+    margin-top: 20px;
+}
+
+#botao_iniciar:hover {
+    background-color: #3cb371;
+}
+
+#botao_iniciar:active {
+    box-shadow: 0 2px #006400;
+    transform: translateY(2px);
 }
 
 #tela_de_jogo {
@@ -89,26 +115,45 @@ button {
 
 .botoes button {
     width: 40px;
-    background-color: #0ea989;
+    border: 1px solid #333;
+    background-color: #20a389;
+    transition: 0.2s;
+}
+
+.botoes button:hover {
+    background-color: #00b490;
 }
 
 .botoes button.errado {
-    background-color: #e74c3c;
+    background-color: #eb1700;
+    cursor: not-allowed;
 }
 
 .botoes button.correto {
-    background-color: #95a5a6;
+    background-color: #2873d6;
+    cursor: not-allowed;
 }
 
-.iniciar,
 .mostrar_dica {
-    width: 200px;
-    background-color: #3ba128;
-    margin: 20px;
+    -webkit-text-stroke: 1.75px #333;
+    padding: 5px 20px;
+    font-size: 26px;
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px #228b22;
+    margin-top: 20px;
 }
 
-button:hover {
-    opacity: 0.8;
+.mostrar_dica:hover {
+    background-color: #3cb371;
+}
+
+.mostrar_dica:active {
+    box-shadow: 0 2px #006400;
+    transform: translateY(2px);
 }
 
 .dica {
