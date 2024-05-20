@@ -30,6 +30,10 @@ header h1 {
     -webkit-text-stroke: 0.1px #333;
 }
 
+img {
+    width: 225px;
+}
+
 #tela_inicial,
 #tela_de_jogo {
     display: flex;
@@ -232,8 +236,8 @@ button {
     }
 
     .botoes button {
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
 
     .dica {
@@ -250,5 +254,9 @@ button {
     #mensagemFeedback {
         font-size: 1.1em;
         text-align: center;
+    }
+
+    img {
+        width: 200px;
     }
 }
