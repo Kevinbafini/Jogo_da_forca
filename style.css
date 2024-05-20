@@ -248,8 +248,8 @@ a {
     }
 
     .botoes button {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     .dica {
@@ -260,7 +260,7 @@ a {
     #botao_iniciar {
         -webkit-text-stroke: 1.3px #333;
         font-size: 1.2em;
-        padding: 8px 14px;
+        padding: 6px 10px;
     }
 
     #mensagemFeedback {
@@ -269,11 +269,11 @@ a {
     }
 
     img {
-        width: 200px;
+        width: 150px;
     }
 
     a {
-        top: 98.5%;
+        top: 98%;
         font-size: 8px;
     }
 }
