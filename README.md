@@ -60,7 +60,7 @@ Para executar este projeto localmente, siga estes passos:
 - Clone o repositório para sua máquina local:
 
 ```bash
-https://github.com/Kevinbafini/primary_shop.git
+https://github.com/Kevinbafini/Jogo_da_forca.git
 ```
 
 Isso criará uma cópia local do repositório em sua máquina.
