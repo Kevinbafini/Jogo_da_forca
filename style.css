@@ -14,7 +14,7 @@ body {
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #efeffb;
+    background: linear-gradient(135deg, #cff1cd, #3d8746);
     color: #333;
     padding: 10px;
 }
@@ -27,8 +27,8 @@ header {
 
 header h1 {
     font-size: 2.75em;
-    color: #26a90f;
-    -webkit-text-stroke: 0.1px #333;
+    color: #fff;
+    -webkit-text-stroke: 1.5px #333;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -130,12 +130,12 @@ button {
 
 .botoes button {
     width: 40px;
-    background-color: #3cb371;
+    background-color: #008526;
     transition: 0.2s;
 }
 
 .botoes button:hover {
-    background-color: #3ecb7d;
+    background-color: #00a22e;
 }
 
 .botoes button.errado {
@@ -184,7 +184,7 @@ button {
 
 a {
     top: 97%;
-    color: #333;
+    color: #fff;
     font-weight: bold;
     display: flex;
     position: absolute;
